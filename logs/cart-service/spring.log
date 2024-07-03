@@ -1,0 +1,242 @@
+21:48:00:173  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0
+21:48:00:224  INFO 13624 --- [main] org.reflections.Reflections              : Reflections took 20 ms to scan 1 urls, producing 3 keys and 6 values 
+21:48:00:248  INFO 13624 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+21:48:00:259  INFO 13624 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+21:48:00:261  WARN 13624 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+21:48:00:270  INFO 13624 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+21:48:00:281  INFO 13624 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+21:48:00:292  INFO 13624 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+21:48:00:293  WARN 13624 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+21:48:00:294  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+21:48:00:294  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$458/0x000000080041f040
+21:48:00:295  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$459/0x000000080041f440
+21:48:00:295  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+21:48:00:296  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+21:48:00:302  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Try to connect to server on start up, server: {serverIp = '192.168.139.130', server main port = 8848}
+21:48:02:126  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Success to connect to server [192.168.139.130:8848] on start up, connectionId = 1718027283065_172.17.0.1_46448
+21:48:02:126  INFO 13624 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Notify connected event to listeners.
+21:48:02:127  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+21:48:02:127  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d24eef33-5674-4a2e-b3b3-b385f18f3642_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$473/0x000000080041b440
+21:48:02:175  WARN 13624 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[cart-service] & group[DEFAULT_GROUP]
+21:48:02:179  WARN 13624 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[cart-service.yaml] & group[DEFAULT_GROUP]
+21:48:02:183  WARN 13624 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[cart-service-local.yaml] & group[DEFAULT_GROUP]
+21:48:02:184  INFO 13624 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-cart-service-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cart-service.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cart-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-shared-seata.yaml,DEFAULT_GROUP'}]
+21:48:02:197  INFO 13624 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+21:48:03:003  INFO 13624 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2abb142d-3c8b-3821-b068-3e90d7f73410
+21:48:03:050  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:051  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:051  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:071  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:074  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:074  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:075  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$564/0x000000080064a840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:075  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:078  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:079  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:03:081  INFO 13624 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+21:48:03:119  INFO 13624 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+21:48:03:122  INFO 13624 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+21:48:03:162  INFO 13624 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+21:48:03:209  INFO 13624 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+21:48:03:333  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of d104b45d-8bed-41cb-ae5d-10ce50514494
+21:48:03:333  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] RpcClient init label, labels = {module=naming, source=sdk}
+21:48:03:334  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+21:48:03:334  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+21:48:03:334  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+21:48:03:335  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Try to connect to server on start up, server: {serverIp = '192.168.139.130', server main port = 8848}
+21:48:03:452  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Success to connect to server [192.168.139.130:8848] on start up, connectionId = 1718027284454_172.17.0.1_46452
+21:48:03:452  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+21:48:03:452  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$473/0x000000080041b440
+21:48:03:452  INFO 13624 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Notify connected event to listeners.
+21:48:03:480  INFO 13624 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.139.130:8099
+21:48:03:858  INFO 13624 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.139.130:8099,msg:< RegisterTMRequest{applicationId='cart-service', transactionServiceGroup='hmall'} >
+21:48:04:008  INFO 13624 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Receive server push request, request = NotifySubscriberRequest, requestId = 34
+21:48:04:010  INFO 13624 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [d104b45d-8bed-41cb-ae5d-10ce50514494] Ack server push request, request = NotifySubscriberRequest, requestId = 34
+21:48:04:347  INFO 13624 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xbb9c1e76, L:/192.168.139.1:50302 - R:/192.168.139.130:8099]
+21:48:04:352  INFO 13624 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 42 ms, version:1.5.2,role:TMROLE,channel:[id: 0xbb9c1e76, L:/192.168.139.1:50302 - R:/192.168.139.130:8099]
+21:48:04:352  INFO 13624 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[cart-service] txServiceGroup[hmall]
+21:48:04:361  INFO 13624 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+21:48:04:362  INFO 13624 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+21:48:04:369  INFO 13624 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+21:48:04:369  INFO 13624 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[cart-service] txServiceGroup[hmall]
+21:48:04:369  INFO 13624 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+21:48:04:371  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:04:591  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:04:593  INFO 13624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:48:04:765  INFO 13624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:48:04:773  INFO 13624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:48:04:773  INFO 13624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:48:04:939  INFO 13624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:48:04:939  INFO 13624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2729 ms
+21:48:05:215  INFO 13624 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+21:48:05:548  INFO 13624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+21:48:05:706  INFO 13624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+21:48:05:757  INFO 13624 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.139.130:8099
+21:48:05:757  INFO 13624 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.139.130:3306/hm-cart
+21:48:05:758  INFO 13624 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.139.130:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.139.130:3306/hm-cart', applicationId='cart-service', transactionServiceGroup='hmall'} >
+21:48:05:765  INFO 13624 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x90c71d95, L:/192.168.139.1:50306 - R:/192.168.139.130:8099]
+21:48:05:765  INFO 13624 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 5 ms, version:1.5.2,role:RMROLE,channel:[id: 0x90c71d95, L:/192.168.139.1:50306 - R:/192.168.139.130:8099]
+21:48:07:332  INFO 13624 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+21:48:08:198  INFO 13624 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:48:08:907  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 081d6951-03a2-4ad7-88d4-4fc6077e8446
+21:48:08:907  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] RpcClient init label, labels = {module=naming, source=sdk}
+21:48:08:907  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+21:48:08:907  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+21:48:08:907  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+21:48:08:908  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Try to connect to server on start up, server: {serverIp = '192.168.139.130', server main port = 8848}
+21:48:09:020  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Success to connect to server [192.168.139.130:8848] on start up, connectionId = 1718027290025_172.17.0.1_46482
+21:48:09:020  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+21:48:09:020  INFO 13624 --- [main] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$473/0x000000080041b440
+21:48:09:020  INFO 13624 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Notify connected event to listeners.
+21:48:09:051  INFO 13624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+21:48:09:060  INFO 13624 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 10.206.222.232:8082 register finished
+21:48:09:597  INFO 13624 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Receive server push request, request = NotifySubscriberRequest, requestId = 35
+21:48:09:598  INFO 13624 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Ack server push request, request = NotifySubscriberRequest, requestId = 35
+21:48:09:619  INFO 13624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:48:09:622  INFO 13624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:48:09:637  INFO 13624 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:48:09:706  INFO 13624 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 11.389 seconds (JVM running for 12.564)
+21:48:09:710  INFO 13624 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service, group=DEFAULT_GROUP
+21:48:09:711  INFO 13624 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service.yaml, group=DEFAULT_GROUP
+21:48:09:711  INFO 13624 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service-local.yaml, group=DEFAULT_GROUP
+21:50:01:529  INFO 13624 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:50:01:529  INFO 13624 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21:50:01:530  INFO 13624 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+21:50:01:713 DEBUG 13624 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:01:730 DEBUG 13624 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:01:747 DEBUG 13624 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+21:50:02:869 DEBUG 13624 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:02:869 DEBUG 13624 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:02:870 DEBUG 13624 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+21:50:07:659 DEBUG 13624 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+21:50:07:659 DEBUG 13624 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long), 100001905417(Long)
+21:50:07:661 DEBUG 13624 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:50:07:663 DEBUG 13624 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+21:50:07:663 DEBUG 13624 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long)
+21:50:07:664 DEBUG 13624 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:50:07:694 DEBUG 13624 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+21:50:07:694 DEBUG 13624 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 2(Long), 100001905417(Long), 【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待(String), {"颜色": "红色"}(String), 224900(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp(String)
+21:50:07:698 DEBUG 13624 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+21:50:07:738 DEBUG 13624 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:07:739 DEBUG 13624 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:07:743 DEBUG 13624 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+21:50:07:747 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100001905417 HTTP/1.1
+21:50:07:747 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 2
+21:50:07:747 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:50:07:947 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (199ms)
+21:50:07:947 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:50:07:947 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:50:07:947 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Mon, 10 Jun 2024 13:50:07 GMT
+21:50:07:947 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:50:07:948 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:50:07:948 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:50:07:948 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100001905417","name":"【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待","price":224900,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"红色\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+21:50:07:948 DEBUG 13624 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (446-byte body)
+21:50:08:341  INFO 13624 --- [nacos-grpc-client-executor-33] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Receive server push request, request = NotifySubscriberRequest, requestId = 43
+21:50:08:341  INFO 13624 --- [nacos-grpc-client-executor-33] com.alibaba.nacos.common.remote.client   : [081d6951-03a2-4ad7-88d4-4fc6077e8446] Ack server push request, request = NotifySubscriberRequest, requestId = 43
+21:50:13:360 DEBUG 13624 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:13:360 DEBUG 13624 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:13:362 DEBUG 13624 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+21:50:13:363 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100001905417 HTTP/1.1
+21:50:13:363 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 2
+21:50:13:363 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:50:13:373 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (10ms)
+21:50:13:373 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:50:13:373 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:50:13:373 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Mon, 10 Jun 2024 13:50:13 GMT
+21:50:13:373 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:50:13:374 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:50:13:374 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:50:13:374 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100001905417","name":"【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待","price":224900,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"红色\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+21:50:13:374 DEBUG 13624 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (446-byte body)
+21:50:18:164 DEBUG 13624 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+21:50:18:164 DEBUG 13624 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long), 4026319(Long)
+21:50:18:166 DEBUG 13624 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:50:18:167 DEBUG 13624 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+21:50:18:167 DEBUG 13624 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long)
+21:50:18:169 DEBUG 13624 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:50:18:170 DEBUG 13624 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+21:50:18:170 DEBUG 13624 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 2(Long), 4026319(Long), TCL 65A950C 65英寸32核人工智能 HDR曲面超薄4K电视金属机身（枪色）(String), {"版本": "65英寸"}(String), 394400(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/5269/2/12146/122833/5bd2a509Ed9ba6c1f/6a50f35bfacecbc6.jpg!q70.jpg.webp(String)
+21:50:18:175 DEBUG 13624 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+21:50:18:224 DEBUG 13624 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:18:224 DEBUG 13624 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:18:226 DEBUG 13624 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:50:18:227 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=4026319&ids=100001905417 HTTP/1.1
+21:50:18:227 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 2
+21:50:18:227 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (6ms)
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Mon, 10 Jun 2024 13:50:18 GMT
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"4026319","name":"TCL 65A950C 65英寸32核人工智能 HDR曲面超薄4K电视金属机身（枪色）","price":394400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/5269/2/12146/122833/5bd2a509Ed9ba6c1f/6a50f35bfacecbc6.jpg!q70.jpg.webp","category":"曲面电视","brand":"TCL","spec":"{\"版本\": \"65英寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100001905417","name":"【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待","price":224900,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"红色\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+21:50:18:234 DEBUG 13624 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (845-byte body)
+21:50:20:367 DEBUG 13624 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:20:367 DEBUG 13624 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:20:370 DEBUG 13624 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+21:50:20:371 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=4026319&ids=100001905417 HTTP/1.1
+21:50:20:371 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 2
+21:50:20:371 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:50:20:378 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (7ms)
+21:50:20:378 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:50:20:378 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:50:20:378 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Mon, 10 Jun 2024 13:50:20 GMT
+21:50:20:378 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:50:20:378 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:50:20:378 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:50:20:379 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"4026319","name":"TCL 65A950C 65英寸32核人工智能 HDR曲面超薄4K电视金属机身（枪色）","price":394400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/5269/2/12146/122833/5bd2a509Ed9ba6c1f/6a50f35bfacecbc6.jpg!q70.jpg.webp","category":"曲面电视","brand":"TCL","spec":"{\"版本\": \"65英寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100001905417","name":"【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待","price":224900,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"红色\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+21:50:20:379 DEBUG 13624 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (845-byte body)
+21:50:27:376 DEBUG 13624 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+21:50:27:376 DEBUG 13624 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long), 8533120(Long)
+21:50:27:377 DEBUG 13624 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:50:27:378 DEBUG 13624 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+21:50:27:378 DEBUG 13624 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long)
+21:50:27:380 DEBUG 13624 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+21:50:27:381 DEBUG 13624 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+21:50:27:382 DEBUG 13624 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 2(Long), 8533120(Long), 海尔 （Haier ）LQ65H31 65英寸 4K曲面人工智能全面屏超高清LED液晶电视(String), {}(String), 379500(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/2851/14/13998/101463/5bd9723cE81b2c299/1bfdf2d1628648e4.jpg!q70.jpg.webp(String)
+21:50:27:385 DEBUG 13624 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+21:50:27:420 DEBUG 13624 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:27:421 DEBUG 13624 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:27:424 DEBUG 13624 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 3
+21:50:27:426 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=4026319&ids=8533120&ids=100001905417 HTTP/1.1
+21:50:27:426 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 2
+21:50:27:427 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (7ms)
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Mon, 10 Jun 2024 13:50:27 GMT
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"4026319","name":"TCL 65A950C 65英寸32核人工智能 HDR曲面超薄4K电视金属机身（枪色）","price":394400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/5269/2/12146/122833/5bd2a509Ed9ba6c1f/6a50f35bfacecbc6.jpg!q70.jpg.webp","category":"曲面电视","brand":"TCL","spec":"{\"版本\": \"65英寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"8533120","name":"海尔 （Haier ）LQ65H31 65英寸 4K曲面人工智能全面屏超高清LED液晶电视","price":379500,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/2851/14/13998/101463/5bd9723cE81b2c299/1bfdf2d1628648e4.jpg!q70.jpg.webp","category":"曲面电视","brand":"海尔","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100001905417","name":"【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待","price":224900,"stock":9997,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"红色\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+21:50:27:434 DEBUG 13624 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (1228-byte body)
+21:50:33:374 DEBUG 13624 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?,?,?))
+21:50:33:430 DEBUG 13624 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 2(Long), 4026319(Long), 8533120(Long), 100001905417(Long)
+21:50:33:507 DEBUG 13624 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 3
+21:50:33:923  INFO 13624 --- [rpcDispatch_RMROLE_1_1_12] i.s.c.r.p.c.RmBranchCommitProcessor      : rm client handle branch commit process:xid=192.168.139.130:8099:36559573956755457,branchId=36559573956755464,branchType=AT,resourceId=jdbc:mysql://192.168.139.130:3306/hm-cart,applicationData={"autoCommit":false}
+21:50:33:924  INFO 13624 --- [rpcDispatch_RMROLE_1_1_12] io.seata.rm.AbstractRMHandler            : Branch committing: 192.168.139.130:8099:36559573956755457 36559573956755464 jdbc:mysql://192.168.139.130:3306/hm-cart {"autoCommit":false}
+21:50:33:925  INFO 13624 --- [rpcDispatch_RMROLE_1_1_12] io.seata.rm.AbstractRMHandler            : Branch commit result: PhaseTwo_Committed
+21:50:40:420 DEBUG 13624 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:40:420 DEBUG 13624 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+21:50:40:422 DEBUG 13624 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+22:03:55:595  WARN 13624 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+22:03:55:594  WARN 13624 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+22:03:55:595  WARN 13624 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+22:03:55:595  WARN 13624 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+22:03:56:143  INFO 13624 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+22:03:56:147  INFO 13624 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+22:03:56:454  INFO 13624 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+22:03:56:454  INFO 13624 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@2f87a5d7[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+22:03:56:454  INFO 13624 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1718027290025_172.17.0.1_46482
+22:03:56:455  INFO 13624 --- [nacos-grpc-client-executor-202] c.a.n.c.remote.client.grpc.GrpcClient    : [1718027290025_172.17.0.1_46482]Ignore complete event,isRunning:false,isAbandon=false
+22:03:56:457  INFO 13624 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@366248a0[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 203]
+22:03:56:460  INFO 13624 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+22:03:56:476  INFO 13624 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+22:03:56:494  INFO 13624 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x90c71d95, L:/192.168.139.1:50306 ! R:/192.168.139.130:8099]
+22:03:56:494  INFO 13624 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x90c71d95, L:/192.168.139.1:50306 ! R:/192.168.139.130:8099]
+22:03:56:494  INFO 13624 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x90c71d95, L:/192.168.139.1:50306 ! R:/192.168.139.130:8099]
+22:03:56:498  INFO 13624 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x90c71d95, L:/192.168.139.1:50306 ! R:/192.168.139.130:8099]
+22:03:56:498  INFO 13624 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x90c71d95, L:/192.168.139.1:50306 ! R:/192.168.139.130:8099]) will closed
+22:03:56:498  INFO 13624 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x90c71d95, L:/192.168.139.1:50306 ! R:/192.168.139.130:8099]) will closed
